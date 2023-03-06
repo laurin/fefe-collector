@@ -1,4 +1,3 @@
-import { readFile } from 'fs';
 import fs from 'fs/promises';
 import { JSDOM } from 'jsdom';
 import TurndownService from 'turndown';
