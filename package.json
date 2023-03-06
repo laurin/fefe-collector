@@ -1,0 +1,24 @@
+{
+  "name": "fakefe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts -i data",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.0",
+    "@types/node": "^18.14.5",
+    "@types/turndown": "^5.0.1",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "jsdom": "^21.1.0",
+    "keyword-extractor": "^0.0.25",
+    "turndown": "^7.1.1"
+  }
+}
